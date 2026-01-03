@@ -6,7 +6,8 @@ function timer () {
     var pointsDonald = 0;
     var time = setInterval (() => {
         secondes++;
-        temps.innerText = secondes; //Cette partie de la fonction permet au temps d'augmenter et de s'afficher dans le span timer//
+        temps.innerText = secondes;
+         //Cette partie de la fonction permet au temps d'augmenter et de s'afficher dans le span timer//
 
         if (secondes % 10 === 0) {
             pointsDonald++;
@@ -78,3 +79,24 @@ document.addEventListener('keydown', function(e) {
     perso.style.top = top + 'vh';
     perso.style.left = left + 'vw';
 });
+
+// Mise en place du bouton nouvelle partie //
+
+var bouton = document.querySelector('button');
+
+// La fonction suivante permettra d'arrêter le timer puis de le relancer, de remettre les scores et leur affichage à zéro, et de replacer Donald dans sa position d'origine //
+
+function newGame () {
+    clearInterval(monTimer);
+    secondes = 0;
+    pointsChasseur = 0;
+    pointsDonald = 0;
+    temps.innerText = 0;
+    donald.innerText = 0;
+    chasseur.innerText = 0;
+    perso.style.top = '0vh';
+    perso.style.left = '0vw';
+    monTimer = timer();
+}
+
+bouton.addEventListener('click', newGame);
