@@ -84,7 +84,7 @@ document.addEventListener('keydown', function(e) {
 
 var bouton = document.querySelector('button');
 
-// La fonction suivante permettra d'arrêter le timer puis de le relancer, de remettre les scores et leur affichage à zéro, et de replacer Donald dans sa position d'origine //
+// La fonction suivante permettra d'arrêter le timer puis de le relancer, de remettre les scores et leur affichage à zéro, et de replacer Donald dans sa position d'origine, lorsque nous cliquerons sur le bouton nouvelle partie //
 
 function newGame () {
     clearInterval(monTimer);
