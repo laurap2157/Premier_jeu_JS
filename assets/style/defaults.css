@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    cursor: url('/assets/img/gun.png'), crosshair;
 }
 
 #zoneDeJeu {
@@ -14,6 +13,7 @@
     height: 92vh;
     width: 100vw;
     position: relative;
+    cursor: url('/assets/img/gun.png'), crosshair;
 }
 
 #perso {
