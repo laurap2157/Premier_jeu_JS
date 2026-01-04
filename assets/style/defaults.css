@@ -5,7 +5,7 @@
 }
 
 #zoneDeJeu {
-    background-image: url(/assets/img/office.png);
+    background-image: url('../img/office.png');
     background-size: cover;
     background-origin: border-box;
     background-position: center;
@@ -13,11 +13,11 @@
     height: 92vh;
     width: 100vw;
     position: relative;
-    cursor: url('/assets/img/gun.png'), crosshair;
+    cursor: url('../img/gun.png'), crosshair;
 }
 
 #perso {
-    background-image: url(/assets/img/trump.png);
+    background-image: url('../img/trump.png');
     background-size: contain;
     background-position: 100%;
     background-repeat: no-repeat;
