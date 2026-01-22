@@ -5,7 +5,7 @@
 }
 
 #zoneDeJeu {
-    background-image: url('../img/office.png');
+    background-image: url('../img/background.webp');
     background-size: cover;
     background-origin: border-box;
     background-position: center;
@@ -17,7 +17,7 @@
 }
 
 #perso {
-    background-image: url('../img/trump.png');
+    background-image: url('../img/donald.png');
     background-size: contain;
     background-position: 100%;
     background-repeat: no-repeat;
